@@ -19,6 +19,10 @@ public class Test {
         con.sub();
         con.mul();
         con.div();
+        System.out.print(con + "\r\n");
+        con = (CounterImpl) cox.getBean("counter");
+        System.out.print(con + "\r\n");
+        
 	}
 
 }
